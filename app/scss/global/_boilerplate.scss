@@ -1,0 +1,39 @@
+@use '../util' as u;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+  background-color: var(--white);
+  color: var(--slate-600);
+}
+
+input,
+button {
+  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

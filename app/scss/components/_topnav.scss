@@ -1,0 +1,14 @@
+@use '../util/' as u;
+
+.topnav {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 48px;
+  }
+
+  &__logo {
+    width: u.rem(118);
+  }
+}

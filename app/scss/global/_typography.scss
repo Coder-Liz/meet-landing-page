@@ -1,0 +1,26 @@
+@use '../util' as u;
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: u.rem(40);
+  font-size: clamp(u.rem(40), 1.74rem + 3.22vw, u.rem(64));
+  line-height: 1.1;
+  color: var(--slate-900);
+}
+
+h2 {
+  font-size: u.rem(32);
+  font-size: clamp(u.rem(32), 1.75rem + 1.074vw, u.rem(40));
+  line-height: 1.1;
+}
+
+p {
+  font-size: u.rem(16);
+  font-size: clamp(u.rem(16), 0.94rem + 0.27vw, u.rem(18));
+  font-weight: 500;
+  line-height: 1.5;
+}

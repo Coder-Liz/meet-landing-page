@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
 
-  Download v1.3
-  What is it?
+    <title>Frontend Mentor | Meet landing page</title>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script src="/app/js/script.js"></script>
+  </head>
+  <body>
+    <header class="topnav">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="wrapper topnav__wrapper">
+        <a href="/">
+          <img
+            src="/img/logo.svg"
+            alt="Meet homepage"
+            class="topnav__logo"
+            width="119"
+            height="28"
+          />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/hero-image-tablet.jpg"
+          />
+          <img
+            src="./img/hero-image-mobile.jpg"
+            alt="Hero image"
+            class="hero__image"
+          />
+        </picture>
 
-  01
-  Built for modern use
-
-  Smarter meetings, all in one place
-
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
-</body>
+        <div class="wrapper hero__wrapper">
+          <img src="/img/image-hero-left.png" alt="" class="hero__image-left" />
+          <div class="hero__text-wrapper">
+            <h1 class="hero__title">
+              Group Chat <br />
+              for Everyone
+            </h1>
+            <p class="hero__description">
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+            <div class="hero__cta">
+              <a class="hero__button button-cyan" href=""
+                >Download <span>v1.3</span></a
+              >
+              <a class="hero__button button-purple" href="">What is it?</a>
+            </div>
+          </div>
+          <img
+            src="/img/image-hero-right.png"
+            alt=""
+            class="hero__image-right"
+          />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
