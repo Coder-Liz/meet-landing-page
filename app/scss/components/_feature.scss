@@ -3,6 +3,14 @@
 .feature {
   padding-block: 32px 64px;
 
+  @include u.breakpoint(medium) {
+    padding-block: 56px 64px;
+  }
+
+  @include u.breakpoint(large) {
+    padding-block: 56px 72px;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -90,6 +98,11 @@
       text-transform: uppercase;
       color: var(--cyan-600);
       margin-bottom: 16px;
+    }
+
+    @include u.breakpoint(large) {
+      max-width: 445px;
+      margin-inline: auto;
     }
   }
 }
