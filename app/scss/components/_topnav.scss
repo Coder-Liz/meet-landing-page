@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
     padding-block-start: 48px;
+
+    @include u.breakpoint(large) {
+      padding-block-start: 80px;
+    }
   }
 
   &__logo {
