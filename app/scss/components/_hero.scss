@@ -16,6 +16,10 @@
     @include u.breakpoint(medium) {
       margin-bottom: 72px;
     }
+
+    @include u.breakpoint(large) {
+      display: none;
+    }
   }
 
   &__image {
