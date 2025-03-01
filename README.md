@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-meet-landing-page-hEDhYgnhgp)
 - Live Site URL: [Add live site URL here](https://leafy-ganache-8482c0.netlify.app/)
 
 ## My process
@@ -56,7 +56,6 @@ To see how you can add code snippets, see below:
 
 ```css
 
-}
 ```
 
 ```js
