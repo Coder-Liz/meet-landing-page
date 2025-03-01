@@ -10,6 +10,10 @@
     padding-block: 64px;
   }
 
+  @include u.breakpoint(medium) {
+    padding-block: 87px;
+  }
+
   picture {
     margin-bottom: 48px;
 
